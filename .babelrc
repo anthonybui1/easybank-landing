@@ -1,0 +1,19 @@
+// This external babel config used to fix "Warning: Prop className did not match"
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "minify": true,
+        "transpileTemplateLiterals": true,
+        "pure": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
