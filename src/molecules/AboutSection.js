@@ -5,7 +5,7 @@ const AboutSection = ({ imgsrc, imgalt, title, content }) => {
 	return (
 		<Wrapper>
 			<img src={imgsrc} alt={imgalt} />
-			<StyledH1>{title}</StyledH1>
+			<StyledH2>{title}</StyledH2>
 			<StyledP>{content}</StyledP>
 		</Wrapper>
 	);
@@ -13,8 +13,23 @@ const AboutSection = ({ imgsrc, imgalt, title, content }) => {
 
 export default AboutSection;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+`;
 
-const StyledH1 = styled.h1``;
+const StyledH2 = styled.h2`
+  color: var(--dark-blue);
+  font-weight: 300;
+`;
 
-const StyledP = styled.p``;
+const StyledP = styled.p`
+  color: var(--grayish-blue);
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0 1.1rem;
+`;

@@ -12,9 +12,27 @@ const About = () => {
 			</StyledP>
 			<AboutSection
 				imgsrc='/images/icon-online.svg'
-				imgalt='Hand holding credit cards'
+				imgalt='Icon of a hand holding several credit cards.'
 				title='Online Banking'
 				content='Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.'
+			/>
+			<AboutSection
+				imgsrc='/images/icon-budgeting.svg'
+				imgalt='Icon of phone displaying mobile banking app.'
+				title='Simple Budgeting'
+				content='See exactly where your money goes each month. Receive notifications when you are close to hitting your limits.'
+			/>
+			<AboutSection
+				imgsrc='/images/icon-onboarding.svg'
+				imgalt='Icon of a manager onboarding several recruits'
+				title='Fast Onboarding'
+				content="We don't do branches. Open your account in minutes online and start taking control of your finances right away."
+			/>
+			<AboutSection
+				imgsrc='/images/icon-api.svg'
+				imgalt='Icon of a microchip with many connections.'
+				title='Open API'
+				content='Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.'
 			/>
 		</Wrapper>
 	);
@@ -28,6 +46,7 @@ const Wrapper = styled.div`
 	align-items: center;
 	justify-content: center;
 	background-color: var(--light-grayish-blue);
+	padding-bottom: 2rem;
 `;
 
 const StyledH1 = styled.h1`
@@ -39,7 +58,7 @@ const StyledH1 = styled.h1`
 
 const StyledP = styled.p`
 	margin: 0;
-	padding: 0 1rem;
+	padding: 0 1.1rem;
 	text-align: center;
 	color: var(--grayish-blue);
 	font-size: 0.8rem;

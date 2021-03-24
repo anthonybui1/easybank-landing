@@ -52,8 +52,7 @@ const StyledH1 = styled.h1`
 
 const StyledP = styled.p`
 	position: relative;
-	margin-top: 0;
-	padding: 1rem;
+	padding: 0 1.1rem;
 	text-align: center;
 	color: var(--grayish-blue);
 	font-size: 0.8rem;
