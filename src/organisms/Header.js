@@ -20,6 +20,9 @@ const Header = () => {
 export default Header;
 
 const StyledNav = styled.nav`
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
