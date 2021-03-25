@@ -14,6 +14,7 @@ const StyledBtn = styled.button`
 	border: none;
 	padding: 12px 30px;
 	background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
+	white-space: nowrap;
 	cursor: pointer;
 	&:hover {
 		background: linear-gradient(90deg, hsl(136, 65%, 61%), hsl(192, 70%, 61%));

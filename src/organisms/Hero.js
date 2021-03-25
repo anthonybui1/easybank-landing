@@ -100,6 +100,7 @@ const MockupImg = styled.img`
 const StyledH1 = styled.h1`
 	position: relative;
 	color: var(--dark-blue);
+	font-size: 2.2rem;
 	font-weight: 300;
 	text-align: center;
 	margin: 0;

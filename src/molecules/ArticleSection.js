@@ -20,37 +20,46 @@ const Wrapper = styled.div`
 	justify-content: center;
 	align-items: center;
 	margin: 2rem 1.2rem;
-  padding-bottom: 1rem;
+	padding-bottom: 1rem;
 	border-radius: 5px;
-  background-color: white;
+	background-color: white;
+	@media (min-width: 864px) {
+		margin: 2rem 0;
+		justify-content: flex-start;
+		padding: 0;
+	}
 `;
 
 const StyledImg = styled.img`
-  width: 100%;
-  max-height: 180px;
-  object-fit: cover;
+	width: 100%;
+	min-height: 150px;
+	max-height: 180px;
+	object-fit: cover;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-  
 `;
 
 const StyledAuthorName = styled.p`
 	align-self: flex-start;
-  margin-top: 1.5rem;
+	margin-top: 1.5rem;
 	padding: 0 1rem;
-  color: var(--grayish-blue);
-  font-size: 0.6rem;
+	color: var(--grayish-blue);
+	font-size: 0.6rem;
 `;
 
 const StyledH3 = styled.h3`
-  margin: 0;
+	margin: 0;
 	padding: 0 1rem;
-  font-weight: 300;
-  font-size: 1rem;
+	font-weight: 300;
+	font-size: 1rem;
+	cursor: pointer;
+	&:hover {
+		color: #10b981;
+	}
 `;
 
 const StyledP = styled.p`
 	padding: 0 1rem;
-  color: var(--grayish-blue);
-  font-size: 0.8rem;
+	color: var(--grayish-blue);
+	font-size: 0.8rem;
 `;

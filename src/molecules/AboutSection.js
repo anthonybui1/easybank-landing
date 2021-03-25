@@ -38,6 +38,7 @@ const StyledP = styled.p`
   font-size: 0.8rem;
   margin: 0;
   padding: 0 1.1rem;
+  line-height: 1.5;
 	@media (min-width: 864px) {
     padding-left: 0;
 	}

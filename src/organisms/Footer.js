@@ -7,11 +7,15 @@ import InviteButton from '../atoms/InviteButton';
 const Footer = () => {
 	return (
 		<StyledFooter>
-			<img src='/images/white-logo.svg' alt='Easybank logo' />
-      <SocialRow />
-      <FooterLinks />
-      <InviteButton />
-      <StyledP>© Easybank. All Rights Reserved</StyledP>
+			<LeftFoot>
+				<img src='/images/white-logo.svg' alt='Easybank logo' />
+				<SocialRow />
+			</LeftFoot>
+			<FooterLinks />
+			<RightFoot>
+				<InviteButton />
+				<StyledP>© Easybank. All Rights Reserved</StyledP>
+			</RightFoot>
 		</StyledFooter>
 	);
 };
@@ -25,13 +29,39 @@ const StyledFooter = styled.footer`
 	justify-content: center;
 	align-items: center;
 	padding: 2rem 0;
-  img {
-    cursor: pointer;
-  }
+	img {
+		cursor: pointer;
+	}
+	@media (min-width: 864px) {
+		flex-direction: row;
+		justify-content: space-between;
+		padding-left: 4rem;
+	}
 `;
 
 const StyledP = styled.p`
-  color: var(--grayish-blue);
-  font-size: 0.8rem;
-  margin-top: 2rem;
+	color: var(--grayish-blue);
+	font-size: 0.8rem;
+	margin-top: 2rem;
+`;
+
+const LeftFoot = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	@media (min-width: 864px) {
+		align-items: flex-start;
+	}
+`;
+
+const RightFoot = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	@media (min-width: 864px) {
+		align-items: flex-end;
+		padding-right: 4rem;
+	}
 `;

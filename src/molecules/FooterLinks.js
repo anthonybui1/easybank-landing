@@ -23,9 +23,19 @@ const Wrapper = styled.div`
   align-items: center;
   gap: 12px;
   margin-bottom: 2rem;
+	@media (min-width: 864px) {
+		max-height: 100px;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		flex-basis: 350px;
+		margin-right: 200px;
+	}
 `;
 
 const StyledAnchor = styled.a`
   color: white;
   font-size: 0.9rem;
+	&:hover {
+		color: var(--medium-emerald);
+	}
 `;
