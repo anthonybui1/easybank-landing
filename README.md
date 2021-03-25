@@ -30,6 +30,8 @@ Install dependencies
 ## Usage
 The user is able to browse information in order to learn more about Easybank, view the optimal layout for the site depending on screen size, and see hover states for all interactive elements.
 
+![Demo of the Easybank website](https://media.giphy.com/media/ObVD8DXxWy2aQ6k5kw/giphy.gif)
+
 ## Contributing
 This project is not accepting contributions. You are welcome to modify and distribute any versions as you please.
 
