@@ -21,6 +21,7 @@ const StyledNav = styled.nav`
 	align-items: center;
 	padding: 20px;
 	background-color: white;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 	img {
 		cursor: pointer;
 	}

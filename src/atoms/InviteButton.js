@@ -15,4 +15,7 @@ const StyledBtn = styled.button`
 	padding: 12px 30px;
 	background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
 	cursor: pointer;
+	&:hover {
+		background: linear-gradient(90deg, hsl(136, 65%, 61%), hsl(192, 70%, 61%));
+	}
 `;

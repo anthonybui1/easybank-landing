@@ -20,9 +20,10 @@ const Row = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
   margin: 2rem 0;
   img {
     cursor: pointer;
+    transform: scale(1.2);
   }
 `;
