@@ -20,6 +20,12 @@ const Wrapper = styled.div`
   align-items: center;
   text-align: center;
   margin-top: 2rem;
+  @media (min-width: 864px) {
+		text-align: start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 1rem;
+	}
 `;
 
 const StyledH2 = styled.h2`
@@ -32,4 +38,7 @@ const StyledP = styled.p`
   font-size: 0.8rem;
   margin: 0;
   padding: 0 1.1rem;
+	@media (min-width: 864px) {
+    padding-left: 0;
+	}
 `;
