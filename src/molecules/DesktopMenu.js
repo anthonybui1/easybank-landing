@@ -4,11 +4,11 @@ import styled from 'styled-components';
 const DesktopMenu = () => {
 	return (
 		<Wrapper>
-			<StyledAnchor>Home</StyledAnchor>
-			<StyledAnchor>About</StyledAnchor>
-			<StyledAnchor>Contact</StyledAnchor>
-			<StyledAnchor>Blog</StyledAnchor>
-			<StyledAnchor>Careers</StyledAnchor>
+			<StyledAnchor href='#'>Home</StyledAnchor>
+			<StyledAnchor href='#'>About</StyledAnchor>
+			<StyledAnchor href='#'>Contact</StyledAnchor>
+			<StyledAnchor href='#'>Blog</StyledAnchor>
+			<StyledAnchor href='#'>Careers</StyledAnchor>
 		</Wrapper>
 	);
 };
